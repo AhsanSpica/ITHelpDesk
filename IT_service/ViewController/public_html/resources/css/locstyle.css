@@ -1,0 +1,61 @@
+@charset "windows-1252";
+
+
+ .stripe-container{width:100%}
+ @media screen and (min-width: 569px)
+ {.stripe-container{min-width:980px}}@media screen and (min-width: 321px) and (max-width: 1024px)
+ {.stripe-container{min-width:980px}}@media screen and (max-width: 568px) and (min-width: 0px)
+ {.stripe-container{min-width:320px}}
+ 
+  
+.buttonextra {
+    background-color: #8ce4ff;
+    border: none;
+    color: white;
+    height:30px;
+    width:80px;
+    padding: 1px 1px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+input::-webkit-input-placeholder { font-size: 10pt; color: #555; }
+input::-moz-placeholder { font-size: 10pt; color: #555; }
+input:-ms-input-placeholder { font-size: 10pt; color: #555; }
+input:-moz-placeholder { font-size: 10pt; color: #555; }
+
+input.other::-webkit-input-placeholder { font-size: 10pt; color: red; }
+input.other::-moz-placeholder { font-size: 10pt; color: red; }
+input.other:-ms-input-placeholder { font-size: 10pt; color: red; }
+input.other:-moz-placeholder { font-size: 10pt; color: red; }
+.field-style2{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    
+    padding: 8px;
+    outline: none;
+    border: 1px solid #B0CFE0;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+
+}
+
+
+.sp{
+  content: "\21B4";
+}  
+legend{
+  display:none;
+}
+h2{
+  border-bottom:2px solid gray;
+  margin:1em 0;
+}
+

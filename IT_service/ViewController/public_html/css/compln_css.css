@@ -1,0 +1,352 @@
+@charset "ISO-8859-1";
+
+ 
+datalist  {    height: 50px;    background-color: lavender;}
+
+/*.sidenav {
+    height: 320px;
+    width: 100px;
+    position: fixed;
+    z-index: 1;
+    top: 20%;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+     overflow-y: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    margin-left:0.5%;*/
+    /*opacity: 0.5;*/
+/*}
+
+.sidenav  input[type='button'] {
+ background-color: #111;
+  margin-left: 300px;
+	border:none;
+    margin:0;
+    padding:0;
+	color: #818181;
+	cursor: pointer;
+	min-width:3%;max-width:54%;
+	padding: .00000001em;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    transition: 0.3s;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+  .sidenav input[type='button']  {font-size: 18px;}
+}
+
+
+        
+        .sidenav a {
+    padding: 8px 8px 8px 8px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+.sidenav label:hover, .offcanvas label:focus{
+    color: #f1f1f1;
+}
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}*/
+
+
+
+ @media screen and (-webkit-min-device-pixel-ratio:0) and (min-resolution:.001dpcm)  {  
+ 
+#probdtl
+{  
+height :220px;
+width:100%;}
+
+  .navbtn {
+ background-color: #111;
+   margin-left: 20px;
+	border:none;
+    margin:0;
+    padding:0;
+	color: #818181;
+	cursor: pointer;
+	min-width:3%;max-width:54%;
+	padding: .000001em;}
+        
+        
+input:focus,select:focus{
+   border-color: Blue  ;
+}
+ 
+@media print {
+   thead {display: table-header-group;} 
+   tfoot {display: table-footer-group;}
+}
+
+
+
+label{
+  font-family: Verdana;
+   font-size: 11pt;
+    font-weight: 500;
+     color: Black;
+}
+
+#provlist :-webkit-calendar-picker-indicator {
+  display: none;
+}
+#main{ transition: margin-left .5s;
+    padding: 16px;
+    height: 700px;
+    background: #0991e5; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left top,  #aed8f2,#0991e5); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right ,  #aed8f2,#0991e5); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right,#aed8f2,#0991e5); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #aed8f2,#0991e5); /* Standard syntax (must be last) */
+    
+}
+
+
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+   
+    padding: 10px;
+    height: 350px; background-color: White;
+  
+}
+.column3 {
+    float: left;
+    padding: 20px;
+     background-color: White;
+      width: 15%; /* Visible to IE6 only*/ 
+      height: 420px; /* Visible to IE6 only*/ 
+      min-width: 5%; /* Visible to IE7 only */ 
+      min-height: 5%; /* Visible to IE7 only */ 
+     /*-webkit-transform:scale(0.7);
+     -moz-transform:scale(0.7);
+     -ms-transform:scale(0.7);
+      transform:scale(0.7);*/
+}
+.lastcol{
+	 float: left;
+    padding: 20px;
+    background-color: White;
+      width: 25%; /* Visible to IE6 only*/ 
+      height: 420px; /* Visible to IE6 only*/ 
+      min-width: 5%; /* Visible to IE7 only */ 
+      min-height: 5%; /* Visible to IE7 only */ 
+}
+
+.agent
+{
+height:450px;
+min-height:20px;
+width:100%;
+min-width:10%;
+margin-top:2%;
+
+}
+
+
+.column2 {
+    float: left;
+    
+    padding: 10px;
+    height: 110px;
+    min-height:20px;
+    min-width:15%;
+    background-color: White;
+}
+.usercon
+{
+        margin-top:15px;
+        width: 100%; /* Visible to IE6 only*/ 
+        height: 420px; /* Visible to IE6 only*/ 
+       
+}
+.form-style-9{
+  
+    /*padding: 30px;
+    margin: 50px auto;
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);*/  
+}
+
+.bodycss
+{ width: 100%;
+  height: 90%; 
+  min-width:20%;
+  min_height:10%;
+  background-repeat: no-repeat;
+  background-size: 100.0%;
+  transition: background-color .5s; 
+}
+ 
+a.disabled {
+   pointer-events: none;
+   cursor: default;
+}
+ 
+  
+  } 
+
+  
+  
+
+/*for old 6,7, 8,9,10 */
+@media \0screen\,screen\9,screen\0 {
+
+
+@charset "ISO-8859-1";
+
+.navbtn {
+ background-color: #111;
+   margin-left: 20px;
+	border:none;
+    margin:0;
+    padding:0;
+	color: #818181;
+	cursor: pointer;
+	min-width:3%;max-width:54%;
+	padding: .000001em;}
+
+
+input:focus,select:focus{
+   border-color: Blue  ;
+}
+
+#main{ transition: margin-left .5s;
+    padding: 16px;
+    height: 700px;
+    background: #0991e5; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left top,  #aed8f2,#0991e5); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right ,  #aed8f2,#0991e5); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right,#aed8f2,#0991e5); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #aed8f2,#0991e5); /* Standard syntax (must be last) */
+    
+}
+.agent
+{
+height:450px;
+min-height:20px;
+width:100%;
+min-width:10%;
+margin-top:2%;
+
+}
+.usercon
+{
+	    margin-top:15px;
+        width: 100%; /* Visible to IE6 only*/ 
+        height: 420px; /* Visible to IE6 only*/ 
+        min-width: 20%; /* Visible to IE7 only */ 
+        min-height: 20%; /* Visible to IE7 only */ 
+}
+.form-style-9{
+  
+  
+   
+}
+
+
+.bodycss
+{ width: 100%;
+  height: 90%; 
+  min-width:20%;
+  min_height:10%;
+  background-repeat: no-repeat;
+  background-size: 108.0%;
+  transition: background-color .5s;
+ 
+}
+
+ 
+.lastcol{
+	 float: left;
+    padding: 20px;
+    background-color: White;
+      width: 20%; /* Visible to IE6 only*/ 
+      height: 420px; /* Visible to IE6 only*/ 
+      min-width: 5%; /* Visible to IE7 only */ 
+      min-height: 5%; /* Visible to IE7 only */ 
+ 
+}
+.column {
+    float: left;
+   
+    padding: 10px;
+    height: 350px; background-color: White;
+  
+}
+.column3 {
+    float: left;
+    padding: 20px;
+     background-color: White;
+      width: 13%; /* Visible to IE6 only*/ 
+      height: 420px; /* Visible to IE6 only*/ 
+      min-width: 5%; /* Visible to IE7 only */ 
+      min-height: 5%; /* Visible to IE7 only */ 
+    
+}
+
+.column2 {
+    float: left;
+    
+    padding: 10px;
+    height: 110px;
+    min-height:20px;
+    min-width:15%;
+    background-color: White;
+}
+
+
+a.disabled {
+   pointer-events: none;
+   cursor: default;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+}
+
+
+
+/*end for IE 6,7,8*/
+ 
+
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+button, input{
+  z-index:10;
+}
+.blue    { background-color: #3b8ec2; }
+.semi-square {
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+}
+
+.styled-select select {
+   background: transparent;
+   border: none;
+   font-size: 14px;
+   height: 29px;
+   padding: 5px;  
+   width: 268px;
+}
